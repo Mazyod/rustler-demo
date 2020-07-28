@@ -1,0 +1,13 @@
+[package]
+name = "rustlerdep"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "rustlerdep"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.22.0-rc.0"
