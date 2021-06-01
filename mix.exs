@@ -22,7 +22,7 @@ defmodule RustlerDep.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler, github: "rusterlium/rustler", sparse: "rustler_mix"}
+      {:rustler, github: "evnu/rustler", branch: "fix-missing-libs", sparse: "rustler_mix"}
     ]
   end
 end
